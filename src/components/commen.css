@@ -1,0 +1,54 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .Card img {
+    width: 130px;
+    height: 160px; 
+    object-fit: cover;
+  }
+  
+  .Card h3 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .Card {
+      border-radius: 5px; /* smaller border radius */
+      margin-bottom: 10px; /* smaller margin */
+    }
+  
+    .Card img {
+        width: 80px;
+        height: 90px; 
+    }
+  
+    .Card h3 {
+        font-size: 11px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .Card {
+      border-radius: 2px; /* even smaller border radius */
+      margin-bottom: 5px; /* even smaller margin */
+    }
+  
+    .Card img {
+        width: 60px;
+        height: 80px; 
+    }
+  
+    .Card h3 {
+      font-size: 8px; /* even smaller font size */
+    }
+  }
+  
